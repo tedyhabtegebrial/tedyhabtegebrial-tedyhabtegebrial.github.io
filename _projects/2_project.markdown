@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: project 2
 description: a project with a background image
@@ -74,4 +74,4 @@ Here's the code for the last row of images above:
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
-```
+``` -->
