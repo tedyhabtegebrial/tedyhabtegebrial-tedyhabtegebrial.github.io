@@ -5,7 +5,24 @@ description:
 img: /assets/img/GVSNet.png
 importance: 1
 ---
-<table align=center width=800px>
+<div class="container">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+    <div class="col"><center>
+      <span style="font-size:20px"><a href="http://tedyhabtegebrial.github.io/">Tewodros A. Habtegebrial</a></span>
+      </center></div>
+    <div class="col"><center>
+      <span style="font-size:20px"><a href="http://varunjampani.github.io/">Varun Jampani</a></span>
+      </center></div>
+    <div class="col"><center>
+      <span style="font-size:20px"><a href="http://alumni.soe.ucsc.edu/~orazio/">Orazio Gallo</a></span>
+      </center></div>
+    <div class="col"><center>
+      <span style="font-size:20px"><a href="https://av.dfki.de/members/stricker/">Didier Stricker</a></span>
+      </center></div>
+  </div>
+</div>
+
+<!-- <table align=center width=800px>
   <tr>
     <td align=center width=300px>
     <center>
@@ -28,106 +45,10 @@ importance: 1
       </center>
       </td>
       </tr>
-</table>
+</table> -->
 <br>
 <br>
 
-<style>
-table, th, td {
-  padding: 2px;
-}
-
-table {
-  border-spacing: 15;
-  text-align: center;
-  vertical-align: middle;
-}
-</style>
-<!-- class="rounded z-depth-1"  -->
-<table style=" margin-left:auto;margin-right:auto;class:center">
- <tr>
-   <th>Input Semantics</th>
-   <th>GVSNet: Ours</th>
-   <th>SPADE[1]+SM[2]</th>
-   <th>SPADE[1]+CVS[3]</th>
-   <!-- <th>SPADE+AF</th> -->
- </tr>
- <tr>
-   <td>
-     <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="175">
-         <source src="/assets/video/carla/circle_r_0_25/0_input_sem.mp4" type="video/mp4">
-     </video>
-   </td>
-   <td>
-     <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="175" >
-       <source src="/assets/video/carla/circle_r_0_25/0_Ours.mp4" type="video/mp4">
-     </video>
-   </td>
-   <td>
-     <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="175">
-         <source src="/assets/video/carla/circle_r_0_25/0_SPADE+SM.mp4" type="video/mp4">
-     </video>
-   </td>
-   <td>
-     <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="175">
-         <source src="/assets/video/carla/circle_r_0_25/0_SPADE+CVS.mp4" type="video/mp4">
-     </video>
-   </td>
-<!--    <td>
-     <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="150" height="150">
-         <source src="/assets/video/carla/circle_r_0_25/0_SPADE+AF.mp4" type="video/mp4">
-     </video>
-   </td> -->
- </tr>
- <tr>
-   <td>
-     <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="175">
-         <source src="/assets/video/carla/circle_r_0_25/4522_input_sem.mp4" type="video/mp4">
-     </video>
-   </td>
-   <td>
-     <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="175" >
-       <source src="/assets/video/carla/circle_r_0_25/4522_Ours.mp4" type="video/mp4">
-     </video>
-   </td>
-   <td>
-     <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="175">
-         <source src="/assets/video/carla/circle_r_0_25/4522_SPADE+SM.mp4" type="video/mp4">
-     </video>
-   </td>
-   <td>
-     <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="175">
-         <source src="/assets/video/carla/circle_r_0_25/4522_SPADE+CVS.mp4" type="video/mp4">
-     </video>
-   </td>
- </tr>
-</table>
-
-<!-- <div class="row justify-content-sm-center">
-    <div class="col-sm" style="margin:0, width:125px">
-        <img class="img-fluid rounded z-depth-1" width="125" height="125" src="/assets/video/carla/circle_r_0_25/0_input_sem.png" alt="" title="example image"/>
-    </div>
-    <div class="col-sm" width="125" height="125">
-        <video autoplay="autoplay" loop="loop" width="125" height="125">
-        <source src="/assets/video/carla/circle_r_0_25/0_Ours.mp4" type="video/mp4">
-        </video>
-    </div>
-    <div class="col-sm" width="125" height="125">
-        <video autoplay="autoplay" loop="loop" width="125" height="125">
-        <source src="/assets/video/carla/circle_r_0_25/0_Ours.mp4" type="video/mp4">
-        </video>
-    </div>
-    <div class="col-sm" width="125" height="125">
-        <video autoplay="autoplay" loop="loop" width="125" height="125">
-        <source src="/assets/video/carla/circle_r_0_25/0_Ours.mp4" type="video/mp4">
-        </video>
-    </div>
-    <div class="col-sm" width="125" height="125">
-        <video autoplay="autoplay" loop="loop" width="125" height="125">
-        <source src="/assets/video/carla/circle_r_0_25/0_Ours.mp4" type="video/mp4">
-        </video>
-    </div>
-</div> -->
 
 ### Abstract
 <div align="justify">
@@ -142,8 +63,58 @@ semantic structures. We first lift the input 2D semantic map onto a 3D layered r
 the semantic labels of 3D geometric structures. We then project the layered features onto the target views to generate the final novel-view images.
 We verify the strengths of our method and compare it with several advanced baselines on three different datasets. Our approach also allows for style
 manipulation and image editing operations, such as the addition or removal of objects, with simple manipulations of the input style images and semantic maps respectively.
-</div>
 
+</div>
+<div class="container">
+<div class="row">
+    <div class="col-sm mt-4 mt-md-0 col-md-offset-2">
+     <div class="caption"> Input Semantics </div>
+     <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="150">
+         <source src="/assets/video/carla/circle_r_0_25/0_input_sem.mp4" type="video/mp4">
+     </video>
+    </div>
+    <div class="col-sm mt-4 mt-md-0 col-md-offset-2">
+      <div class="caption"> GVSNet (Ours) </div>
+      <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="150" >
+       <source src="/assets/video/carla/circle_r_0_25/0_Ours.mp4" type="video/mp4">
+     </video>
+    </div>
+    <div class="col-sm mt-4 mt-md-0 col-md-offset-2">
+      <div class="caption"> SPADE[1]+SM[2] </div>
+      <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="150" >
+       <source src="/assets/video/carla/circle_r_0_25/0_SPADE+SM.mp4" type="video/mp4">
+     </video>
+    </div>
+    <div class="col-sm mt-4 mt-md-0 col-md-offset-2">
+      <div class="caption"> SPADE[1]+CVS[3] </div>
+      <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="150" >
+       <source src="/assets/video/carla/circle_r_0_25/0_SPADE+CVS.mp4" type="video/mp4">
+     </video>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-4 mt-md-0 col-md-offset-2">
+     <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="150">
+         <source src="/assets/video/carla/circle_r_0_25/4522_input_sem.mp4" type="video/mp4">
+     </video>
+    </div>
+    <div class="col-sm mt-4 mt-md-0 col-md-offset-2">
+      <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="150" >
+       <source src="/assets/video/carla/circle_r_0_25/4522_Ours.mp4" type="video/mp4">
+     </video>
+    </div>
+    <div class="col-sm mt-4 mt-md-0 col-md-offset-2">
+      <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="150" >
+       <source src="/assets/video/carla/circle_r_0_25/4522_SPADE+SM.mp4" type="video/mp4">
+     </video>
+    </div>
+    <div class="col-sm mt-4 mt-md-0 col-md-offset-2">
+      <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="150" >
+       <source src="/assets/video/carla/circle_r_0_25/4522_SPADE+CVS.mp4" type="video/mp4">
+     </video>
+    </div>
+</div>
+</div>
 <!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
