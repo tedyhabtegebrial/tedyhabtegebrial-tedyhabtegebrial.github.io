@@ -48,8 +48,8 @@ table {
  <tr>
    <th>Input Semantics</th>
    <th>GVSNet: Ours</th>
-   <th>SPADE+SM</th>
-   <th>SPADE+CVS[1]</th>
+   <th>SPADE[1]+SM[2]</th>
+   <th>SPADE[1]+CVS[3]</th>
    <!-- <th>SPADE+AF</th> -->
  </tr>
  <tr>
