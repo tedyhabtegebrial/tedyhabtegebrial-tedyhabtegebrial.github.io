@@ -54,47 +54,47 @@ importance: 1
 <div class="row">
     <div class="col-sm mt-4 mt-md-0 col-md-offset-2">
      <div class="caption"> Input Semantics </div>
-     <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="80%">
+     <video autoplay="autoplay" loop="loop" width=150>
          <source src="/assets/video/carla/circle_r_0_25/0_input_sem.mp4" type="video/mp4">
      </video>
     </div>
     <div class="col-sm mt-4 mt-md-0 col-md-offset-2">
       <div class="caption"> GVSNet (Ours) </div>
-      <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="80%" >
+      <video autoplay="autoplay" loop="loop" width=150>
        <source src="/assets/video/carla/circle_r_0_25/0_Ours.mp4" type="video/mp4">
      </video>
     </div>
     <div class="col-sm mt-4 mt-md-0 col-md-offset-2">
       <div class="caption"> SPADE[1]+SM[2] </div>
-      <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="80%" >
+      <video autoplay="autoplay" loop="loop" width=150>
        <source src="/assets/video/carla/circle_r_0_25/0_SPADE+SM.mp4" type="video/mp4">
      </video>
     </div>
     <div class="col-sm mt-4 mt-md-0 col-md-offset-2">
       <div class="caption"> SPADE[1]+CVS[3] </div>
-      <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="80%" >
+      <video autoplay="autoplay" loop="loop" width=150>
        <source src="/assets/video/carla/circle_r_0_25/0_SPADE+CVS.mp4" type="video/mp4">
      </video>
     </div>
 </div>
 <div class="row">
     <div class="col-sm mt-4 mt-md-0 col-md-offset-2">
-     <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="80%">
+     <video autoplay="autoplay" loop="loop" width=150>
          <source src="/assets/video/carla/circle_r_0_25/4522_input_sem.mp4" type="video/mp4">
      </video>
     </div>
     <div class="col-sm mt-4 mt-md-0 col-md-offset-2">
-      <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="80%" >
+      <video autoplay="autoplay" loop="loop" width=150>
        <source src="/assets/video/carla/circle_r_0_25/4522_Ours.mp4" type="video/mp4">
      </video>
     </div>
     <div class="col-sm mt-4 mt-md-0 col-md-offset-2">
-      <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="80%" >
+      <video autoplay="autoplay" loop="loop" width=150>
        <source src="/assets/video/carla/circle_r_0_25/4522_SPADE+SM.mp4" type="video/mp4">
      </video>
     </div>
     <div class="col-sm mt-4 mt-md-0 col-md-offset-2">
-      <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="80%" >
+      <video autoplay="autoplay" loop="loop" width=150>
        <source src="/assets/video/carla/circle_r_0_25/4522_SPADE+CVS.mp4" type="video/mp4">
      </video>
     </div>
