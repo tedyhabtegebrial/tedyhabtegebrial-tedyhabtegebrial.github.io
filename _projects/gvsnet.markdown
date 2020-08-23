@@ -46,25 +46,10 @@ importance: 1
       </td>
       </tr>
 </table> -->
+
 <br>
 <br>
 
-
-### Abstract
-<div align="justify">
-Content creation, central to applications such as virtual reality, can be a tedious and time-consuming.
-Recent image synthesis methods simplify this task by offering tools to generate new views from as little
-as a single input image, or by converting a semantic map into a photorealistic image. We propose to push
-the envelope further, and introduce Generative View Synthesis (GVS), which can synthesize multiple photorealistic views
-of a scene given a single semantic map. We show that the sequential application of existing techniques, e.g., semantics-to-image
-translation followed by monocular view synthesis, fail at capturing the scene's structure. In contrast, we solve the semantics-to-image
-translation in concert with the estimation of the 3D layout of the scene, thus producing geometrically consistent novel views that preserve
-semantic structures. We first lift the input 2D semantic map onto a 3D layered representation of the scene in feature space, thereby preserving
-the semantic labels of 3D geometric structures. We then project the layered features onto the target views to generate the final novel-view images.
-We verify the strengths of our method and compare it with several advanced baselines on three different datasets. Our approach also allows for style
-manipulation and image editing operations, such as the addition or removal of objects, with simple manipulations of the input style images and semantic maps respectively.
-
-</div>
 <div class="container">
 <div class="row">
     <div class="col-sm mt-4 mt-md-0 col-md-offset-2">
@@ -115,6 +100,25 @@ manipulation and image editing operations, such as the addition or removal of ob
     </div>
 </div>
 </div>
+
+<br>
+
+### Abstract
+<div align="justify">
+Content creation, central to applications such as virtual reality, can be a tedious and time-consuming.
+Recent image synthesis methods simplify this task by offering tools to generate new views from as little
+as a single input image, or by converting a semantic map into a photorealistic image. We propose to push
+the envelope further, and introduce Generative View Synthesis (GVS), which can synthesize multiple photorealistic views
+of a scene given a single semantic map. We show that the sequential application of existing techniques, e.g., semantics-to-image
+translation followed by monocular view synthesis, fail at capturing the scene's structure. In contrast, we solve the semantics-to-image
+translation in concert with the estimation of the 3D layout of the scene, thus producing geometrically consistent novel views that preserve
+semantic structures. We first lift the input 2D semantic map onto a 3D layered representation of the scene in feature space, thereby preserving
+the semantic labels of 3D geometric structures. We then project the layered features onto the target views to generate the final novel-view images.
+We verify the strengths of our method and compare it with several advanced baselines on three different datasets. Our approach also allows for style
+manipulation and image editing operations, such as the addition or removal of objects, with simple manipulations of the input style images and semantic maps respectively.
+
+</div>
+<br>
 <!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
