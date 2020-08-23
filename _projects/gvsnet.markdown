@@ -9,7 +9,7 @@ importance: 1
   <tr>
     <td align=center width=300px>
     <center>
-      <span style="font-size:20px">Tewodros A. Habtegebrial</span>
+      <span style="font-size:20px"><a href="http://tedyhabtegebrial.github.io/">Tewodros A. Habtegebrial</a></span>
       </center>
       </td>
     <td align=center width=200px>
@@ -19,70 +19,115 @@ importance: 1
       </td>
     <td align=center width=150px>
     <center>
-      <span style="font-size:20px">Orazio Gallo</span>
+      <span style="font-size:20px"><a href="http://alumni.soe.ucsc.edu/~orazio/">Orazio Gallo</a></span>
       </center>
       </td>
       <td align=center width=150px>
       <center>
-      <span style="font-size:20px">Didier Stricker</span>
+      <span style="font-size:20px"><a href="https://av.dfki.de/members/stricker/">Didier Stricker</a></span>
       </center>
       </td>
       </tr>
 </table>
-
-<!-- GVS is a new problem where novel-views of a scene are rendered from a 2D semantic input. -->
+<br>
+<br>
 
 <style>
 table, th, td {
-  padding: 5px;
+  padding: 2px;
 }
+
 table {
-  border-spacing: 15px;
+  border-spacing: 15;
   text-align: center;
   vertical-align: middle;
 }
 </style>
-
+<!-- class="rounded z-depth-1"  -->
 <table style=" margin-left:auto;margin-right:auto;class:center">
  <tr>
    <th>Input Semantics</th>
    <th>GVSNet: Ours</th>
    <th>SPADE+SM</th>
-   <th>SPADE+CVS</th>
-   <th>SPADE+AF</th>
+   <th>SPADE+CVS[1]</th>
+   <!-- <th>SPADE+AF</th> -->
  </tr>
  <tr>
    <td>
-     <video autoplay="autoplay" loop="loop" width="150" height="150">
+     <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="175">
+         <source src="/assets/video/carla/circle_r_0_25/0_input_sem.mp4" type="video/mp4">
+     </video>
+   </td>
+   <td>
+     <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="175" >
        <source src="/assets/video/carla/circle_r_0_25/0_Ours.mp4" type="video/mp4">
      </video>
    </td>
    <td>
-     <video autoplay="autoplay" loop="loop" width="150" height="150">
-       <source src="/assets/video/carla/circle_r_0_25/0_Ours.mp4" type="video/mp4">
-     </video>
-   </td>
-   <td>
-     <video autoplay="autoplay" loop="loop" width="150" height="150">
+     <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="175">
          <source src="/assets/video/carla/circle_r_0_25/0_SPADE+SM.mp4" type="video/mp4">
-           <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
      </video>
    </td>
    <td>
-     <video autoplay="autoplay" loop="loop" width="150" height="150">
+     <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="175">
          <source src="/assets/video/carla/circle_r_0_25/0_SPADE+CVS.mp4" type="video/mp4">
-           <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+     </video>
+   </td>
+<!--    <td>
+     <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="150" height="150">
+         <source src="/assets/video/carla/circle_r_0_25/0_SPADE+AF.mp4" type="video/mp4">
+     </video>
+   </td> -->
+ </tr>
+ <tr>
+   <td>
+     <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="175">
+         <source src="/assets/video/carla/circle_r_0_25/4522_input_sem.mp4" type="video/mp4">
      </video>
    </td>
    <td>
-     <video autoplay="autoplay" loop="loop" width="150" height="150">
-         <source src="/assets/video/carla/circle_r_0_25/0_SPADE+AF.mp4" type="video/mp4">
-           <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+     <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="175" >
+       <source src="/assets/video/carla/circle_r_0_25/4522_Ours.mp4" type="video/mp4">
+     </video>
+   </td>
+   <td>
+     <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="175">
+         <source src="/assets/video/carla/circle_r_0_25/4522_SPADE+SM.mp4" type="video/mp4">
+     </video>
+   </td>
+   <td>
+     <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="175">
+         <source src="/assets/video/carla/circle_r_0_25/4522_SPADE+CVS.mp4" type="video/mp4">
      </video>
    </td>
  </tr>
-
 </table>
+
+<!-- <div class="row justify-content-sm-center">
+    <div class="col-sm" style="margin:0, width:125px">
+        <img class="img-fluid rounded z-depth-1" width="125" height="125" src="/assets/video/carla/circle_r_0_25/0_input_sem.png" alt="" title="example image"/>
+    </div>
+    <div class="col-sm" width="125" height="125">
+        <video autoplay="autoplay" loop="loop" width="125" height="125">
+        <source src="/assets/video/carla/circle_r_0_25/0_Ours.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="col-sm" width="125" height="125">
+        <video autoplay="autoplay" loop="loop" width="125" height="125">
+        <source src="/assets/video/carla/circle_r_0_25/0_Ours.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="col-sm" width="125" height="125">
+        <video autoplay="autoplay" loop="loop" width="125" height="125">
+        <source src="/assets/video/carla/circle_r_0_25/0_Ours.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="col-sm" width="125" height="125">
+        <video autoplay="autoplay" loop="loop" width="125" height="125">
+        <source src="/assets/video/carla/circle_r_0_25/0_Ours.mp4" type="video/mp4">
+        </video>
+    </div>
+</div> -->
 
 ### Abstract
 <div align="justify">
@@ -155,3 +200,18 @@ Here's the code for the last row of images above:
     </div>
 </div>
 ``` -->
+<br>
+<br>
+## Paper Link
+Arxiv: <a href="https://arxiv.org/abs/2008.09106">link</a><br>
+PDF:  <a href="https://arxiv.org/pdf/2008.09106.pdf">link</a><br>
+<br>
+<br>
+## Code, supplemental video and more results
+Coming soon
+<br>
+<br>
+## References
+[1] SPADE: <em>Semantic Image Synthesis with Spatially-Adaptive Normalization</em>, Park et al. <a href="https://arxiv.org/abs/1903.07291">link</a><br>
+[2] SM: <em> Stereo Magnification: Learning View Synthesis using Multiplane Images</em>, Zhou et al. <a href="https://people.eecs.berkeley.edu/~tinghuiz/projects/mpi/"> link </a><br>
+[3] CVS: <em> Monocular Neural Image Based Rendering with Continuous View Control</em>, Chen et al.   <a href="https://arxiv.org/abs/1901.01880">link</a><br>
