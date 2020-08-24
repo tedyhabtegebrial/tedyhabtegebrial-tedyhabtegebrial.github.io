@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: "Generative View Synthesis: from Single-view Semantics to Multi-view Images"
 description:
@@ -136,7 +136,7 @@ manipulation and image editing operations, such as the addition or removal of ob
         <center>
           <div class="col-sm mt-4 mt-md-0 col-md-offset-2">
           <div class="caption"> SPADE[1]+CVS[3] </div>
-          <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="80%" >
+          <video class="rounded z-depth-1" controls autoplay="autoplay" loop="loop" width="80%" >
           <source src="/assets/video/carla/circle_r_0_25/220_Ours.mp4" type="video/mp4">
           </video>
           </div>
@@ -146,7 +146,7 @@ manipulation and image editing operations, such as the addition or removal of ob
         <center>
           <div class="col-sm mt-4 mt-md-0 col-md-offset-2">
           <div class="caption"> SPADE[1]+CVS[3] </div>
-          <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="80%" >
+          <video class="rounded z-depth-1" controls autoplay="autoplay" loop="loop" width="80%" >
           <source src="/assets/video/carla/circle_r_0_25/220_SPADE+SM.mp4" type="video/mp4">
           </video>
           </div>
@@ -156,7 +156,7 @@ manipulation and image editing operations, such as the addition or removal of ob
         <center>
           <div class="col-sm mt-4 mt-md-0 col-md-offset-2">
           <div class="caption"> SPADE[1]+CVS[3] </div>
-          <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="80%" >
+          <video class="rounded z-depth-1" controls autoplay="autoplay" loop="loop" width="80%" >
           <source src="/assets/video/carla/circle_r_0_25/220_SPADE+CVS.mp4" type="video/mp4">
           </video>
           </div>
@@ -176,7 +176,7 @@ manipulation and image editing operations, such as the addition or removal of ob
     <td align=center>
         <center>
           <div class="col-sm mt-4 mt-md-0 col-md-offset-2">
-          <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="80%" >
+          <video class="rounded z-depth-1" controls autoplay="autoplay" loop="loop" width="80%" >
           <source src="/assets/video/carla/circle_r_0_25/1998_Ours.mp4" type="video/mp4">
           </video>
           </div>
@@ -185,7 +185,7 @@ manipulation and image editing operations, such as the addition or removal of ob
     <td align=center>
         <center>
           <div class="col-sm mt-4 mt-md-0 col-md-offset-2">
-          <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="80%" >
+          <video class="rounded z-depth-1" controls autoplay="autoplay" loop="loop" width="80%" >
           <source src="/assets/video/carla/circle_r_0_25/1998_SPADE+SM.mp4" type="video/mp4">
           </video>
           </div>
@@ -194,7 +194,7 @@ manipulation and image editing operations, such as the addition or removal of ob
     <td align=center>
         <center>
           <div class="col-sm mt-4 mt-md-0 col-md-offset-2">
-          <video class="rounded z-depth-1" autoplay="autoplay" loop="loop" width="80%" >
+          <video class="rounded z-depth-1" controls autoplay="autoplay" loop="loop" width="80%" >
           <source src="/assets/video/carla/circle_r_0_25/1998_SPADE+CVS.mp4" type="video/mp4">
           </video>
           </div>
@@ -220,3 +220,4 @@ Coming soon
 [1] SPADE: <em>Semantic Image Synthesis with Spatially-Adaptive Normalization</em>, Park et al. <a href="https://arxiv.org/abs/1903.07291">link</a><br>
 [2] SM: <em> Stereo Magnification: Learning View Synthesis using Multiplane Images</em>, Zhou et al. <a href="https://people.eecs.berkeley.edu/~tinghuiz/projects/mpi/"> link </a><br>
 [3] CVS: <em> Monocular Neural Image Based Rendering with Continuous View Control</em>, Chen et al.   <a href="https://arxiv.org/abs/1901.01880">link</a><br>
+ -->
